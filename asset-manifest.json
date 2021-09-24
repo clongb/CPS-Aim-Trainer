@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/CPS-Aim-Trainer/static/css/main.a617e044.chunk.css",
-    "main.js": "/CPS-Aim-Trainer/static/js/main.ddcedabe.chunk.js",
-    "main.js.map": "/CPS-Aim-Trainer/static/js/main.ddcedabe.chunk.js.map",
+    "main.js": "/CPS-Aim-Trainer/static/js/main.ac3baa84.chunk.js",
+    "main.js.map": "/CPS-Aim-Trainer/static/js/main.ac3baa84.chunk.js.map",
     "runtime-main.js": "/CPS-Aim-Trainer/static/js/runtime-main.bf4d6a8e.js",
     "runtime-main.js.map": "/CPS-Aim-Trainer/static/js/runtime-main.bf4d6a8e.js.map",
-    "static/js/2.96a6a849.chunk.js": "/CPS-Aim-Trainer/static/js/2.96a6a849.chunk.js",
-    "static/js/2.96a6a849.chunk.js.map": "/CPS-Aim-Trainer/static/js/2.96a6a849.chunk.js.map",
+    "static/js/2.818aa272.chunk.js": "/CPS-Aim-Trainer/static/js/2.818aa272.chunk.js",
+    "static/js/2.818aa272.chunk.js.map": "/CPS-Aim-Trainer/static/js/2.818aa272.chunk.js.map",
     "index.html": "/CPS-Aim-Trainer/index.html",
     "static/css/main.a617e044.chunk.css.map": "/CPS-Aim-Trainer/static/css/main.a617e044.chunk.css.map",
-    "static/js/2.96a6a849.chunk.js.LICENSE.txt": "/CPS-Aim-Trainer/static/js/2.96a6a849.chunk.js.LICENSE.txt"
+    "static/js/2.818aa272.chunk.js.LICENSE.txt": "/CPS-Aim-Trainer/static/js/2.818aa272.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.bf4d6a8e.js",
-    "static/js/2.96a6a849.chunk.js",
+    "static/js/2.818aa272.chunk.js",
     "static/css/main.a617e044.chunk.css",
-    "static/js/main.ddcedabe.chunk.js"
+    "static/js/main.ac3baa84.chunk.js"
   ]
 }
