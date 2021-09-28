@@ -9,24 +9,33 @@ function App(): JSX.Element {
   const [isStopped, setIsStopped] = useState(false);
 
   const handleStart = () => {
+    setTimer(15);
     setCount(0);
     setIsDisabled(false);
     setIsActive(true);
     const increment = setInterval(() => {
       setTimer((timer) => timer - 1);
     }, 1000);
+    if(isStopped) {
+      clearInterval(increment);
+    }
+    setIsStopped(false);
   }
 
   const handleStop = () => {
     setIsDisabled(true);
     setIsActive(false);
+    setIsStopped(true);
     setTimer(0);
   }
 
   useEffect(() => {
     document.title = `You clicked ${count} times`
-    if(timer <= 0){
+    if(timer <= 0 && isActive){
       return () => handleStop();
+    }
+    if(timer < 0){
+      setTimer(0);
     }
   });
 
