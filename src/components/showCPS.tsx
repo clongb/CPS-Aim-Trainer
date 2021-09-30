@@ -8,6 +8,7 @@ export function ShowCPS({result, cpsRevealed}: {result: Result, cpsRevealed: boo
         return cps;
     }
     return <Col>
+        <p></p>
         {cpsRevealed && <p>You got a CPS of {calcCPS(result)}</p>}
     </Col>
 }
