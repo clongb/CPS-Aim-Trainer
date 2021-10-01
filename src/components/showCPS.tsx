@@ -10,5 +10,6 @@ export function ShowCPS({result, cpsRevealed}: {result: Result, cpsRevealed: boo
     return <Col>
         <p></p>
         {cpsRevealed && <p>You got a CPS of {calcCPS(result)}</p>}
+        {cpsRevealed && <p>Press start again to retry!</p>}
     </Col>
 }
