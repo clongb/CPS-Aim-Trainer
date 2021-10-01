@@ -1,11 +1,12 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, VoidFunctionComponent } from 'react';
 import { Result } from '../interfaces/result';
 import { Col, Button } from 'react-bootstrap';
 
 let RESULTS:Result[] = [];
 
-export function ControlPanel({results, setResults, reveal, leaderboard, setLeaderboard}: {
-    results: number, setResults: (rs: number) => void, reveal: (r: boolean) => void, leaderboard: Result[], setLeaderboard: (l: Result[]) => void
+export function ControlPanel({results, setResults, reveal, leaderboard, setLeaderboard, visible, setVisible}: {
+    results: number, setResults: (rs: number) => void, reveal: (r: boolean) => void, leaderboard: Result[], 
+    setLeaderboard: (l: Result[]) => void, visible: boolean, setVisible: (v: boolean) => void
 }): JSX.Element {
     const [count, setCount] = useState(0);
     const [timer, setTimer] = useState(15);
@@ -42,6 +43,7 @@ export function ControlPanel({results, setResults, reveal, leaderboard, setLeade
         setIsDisabled(true);
         setIsActive(false);
         setIsStopped(true);
+        setVisible(true);
         setTimer(0);
     }
 
