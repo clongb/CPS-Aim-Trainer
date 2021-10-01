@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/CPS-Aim-Trainer/static/css/main.958f6e0d.chunk.css",
-    "main.js": "/CPS-Aim-Trainer/static/js/main.5bac7694.chunk.js",
-    "main.js.map": "/CPS-Aim-Trainer/static/js/main.5bac7694.chunk.js.map",
+    "main.css": "/CPS-Aim-Trainer/static/css/main.2a2ad763.chunk.css",
+    "main.js": "/CPS-Aim-Trainer/static/js/main.da5cbc24.chunk.js",
+    "main.js.map": "/CPS-Aim-Trainer/static/js/main.da5cbc24.chunk.js.map",
     "runtime-main.js": "/CPS-Aim-Trainer/static/js/runtime-main.bf4d6a8e.js",
     "runtime-main.js.map": "/CPS-Aim-Trainer/static/js/runtime-main.bf4d6a8e.js.map",
     "static/css/2.1d901fad.chunk.css": "/CPS-Aim-Trainer/static/css/2.1d901fad.chunk.css",
-    "static/js/2.309ad90b.chunk.js": "/CPS-Aim-Trainer/static/js/2.309ad90b.chunk.js",
-    "static/js/2.309ad90b.chunk.js.map": "/CPS-Aim-Trainer/static/js/2.309ad90b.chunk.js.map",
+    "static/js/2.39a62253.chunk.js": "/CPS-Aim-Trainer/static/js/2.39a62253.chunk.js",
+    "static/js/2.39a62253.chunk.js.map": "/CPS-Aim-Trainer/static/js/2.39a62253.chunk.js.map",
     "index.html": "/CPS-Aim-Trainer/index.html",
     "static/css/2.1d901fad.chunk.css.map": "/CPS-Aim-Trainer/static/css/2.1d901fad.chunk.css.map",
-    "static/css/main.958f6e0d.chunk.css.map": "/CPS-Aim-Trainer/static/css/main.958f6e0d.chunk.css.map",
-    "static/js/2.309ad90b.chunk.js.LICENSE.txt": "/CPS-Aim-Trainer/static/js/2.309ad90b.chunk.js.LICENSE.txt"
+    "static/css/main.2a2ad763.chunk.css.map": "/CPS-Aim-Trainer/static/css/main.2a2ad763.chunk.css.map",
+    "static/js/2.39a62253.chunk.js.LICENSE.txt": "/CPS-Aim-Trainer/static/js/2.39a62253.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.bf4d6a8e.js",
     "static/css/2.1d901fad.chunk.css",
-    "static/js/2.309ad90b.chunk.js",
-    "static/css/main.958f6e0d.chunk.css",
-    "static/js/main.5bac7694.chunk.js"
+    "static/js/2.39a62253.chunk.js",
+    "static/css/main.2a2ad763.chunk.css",
+    "static/js/main.da5cbc24.chunk.js"
   ]
 }
